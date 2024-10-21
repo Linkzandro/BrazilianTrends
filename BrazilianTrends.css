@@ -217,6 +217,9 @@ input.search-icon{
 input[type=text]:focus{
     outline: none;
 }
+input[type=text]::placeholder{
+    color: var(--beige-color);
+}
 .icon{
     width: 18px;
     height: 18px;
@@ -224,6 +227,12 @@ input[type=text]:focus{
 .icon-cart{
     width: 25px;
     height: 25px;
+}
+.cart-number{
+    color: var(--white-color);
+    background-color: var(--beige-color);
+    border-radius: 50%;
+
 }
 hr.hr-cream{
     background-color: var(--lt-cream-color);
@@ -264,6 +273,8 @@ hr.hr-cream{
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
+    margin: auto ;
+    width: 80%;
 }
 .item-card{
     
@@ -274,6 +285,7 @@ hr.hr-cream{
     flex-direction: column;
     align-items: center;
     position: relative;
+    font-family: 'Postre';
 }
 
 .item-desc{
