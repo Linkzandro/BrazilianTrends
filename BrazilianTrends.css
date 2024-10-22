@@ -195,15 +195,22 @@ section{
 
 
 
+.form-div{
+    border-radius: 5px;
+    background-color: var(--lt-cream-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 6px;
+
+
+}
 
 input.lt-cream{
-    background-color: var(--lt-cream-color);
-    color: var(--beige-color);
-    border-radius: 5px;
+    background: none;
     border: 0px;
     padding: 2px 100px 2px 20px;
-    margin: 8px;
-    
+    color: var(--beige-color);
     
 }
 
@@ -274,7 +281,7 @@ hr.hr-cream{
     flex-wrap: wrap;
     gap: 12px;
     margin: auto ;
-    width: 80%;
+    width: 60%;
 }
 .item-card{
     
