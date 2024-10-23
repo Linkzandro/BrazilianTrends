@@ -14,6 +14,7 @@
     --lt-yellow-color:#CCAD6E;
     --lt-cream-color:#F4D9D2;
     --red-color:#BE2233;
+    --grey-color:#D9D9D9;
 }
 *{
     margin: 0;
@@ -397,4 +398,28 @@ header{
     z-index: 1;
     color: var(--white-color);
     font-weight: 400;
+}
+
+.banner .slide-sphere-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 2.813rem;
+    height: 0.625rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:96%;
+
+}
+
+.slide-sphere-div .slider-sphere{
+    background-color: var(--grey-color);
+    width: 0.625rem;
+    height: 0.625rem;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.slider-sphere.sphere-blue{
+    background-color: var(--blue-color);
 }
