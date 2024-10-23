@@ -370,6 +370,11 @@ header{
     overflow: hidden;
     margin: 0px;
     z-index: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .banner-img{
@@ -378,4 +383,18 @@ header{
     object-fit: cover;
     margin: 0px;
     padding: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.banner h1{
+    z-index: 1;
+    color: var(--white-color);
+    color: var(--red-color);
+    font-weight: 400;
+}
+.banner h3{
+    z-index: 1;
+    color: var(--white-color);
+    font-weight: 400;
 }
